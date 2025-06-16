@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="es">
     <link rel="stylesheet" href="../statics/css/paginaWeb.css">
     <script src="../dynamics/paginaWeb.js"></script>
-    <title>Document</title>
+    <link rel="icon" type="image" href="../statics/img/icono.png">
+    <title>EL RINCÓN DE LAS BICIS</title>
 </head>
 <body>
-    
+    <section id="titulo">
+        <h1>El Rincón De Las Bicis</h1>
+    </section>
+    <!--Recomiendo meter lo siguiente en un div o etiqueta main, para darle diseño 
+    para que ambas queden una tras otra horizontalmente, con flex
+    Es decir, tienen que meter los siguientes elementos en un contenedor con display 
+    flex para que no queden verticales las secciones/-->
+    <section id="productos">
+        <div class="productosDeLaTienda">
+            <p>Casco</p>
+            <!--
+            <span class="productosDeLaTienda" background-image:src("../statics/img/casco.jpeg");>Casco</span>
+            <span class="productosDeLaTienda">Guantes></span>
+            <span class="productosDeLaTienda">Asientos</span>
+            <span class="productosDeLaTienda">Bombas de aire</div>
+            <span class="productosDeLaTienda">Porta bicicletas</span>
+            <span class="productosDeLaTienda">Tenis</span>
+            <span class="productosDeLaTienda">Bicicleta de montaña</span>
+            <span class="productosDeLaTienda">Playera deportiva</span>-->
+            <img src="../statics/img/casco.jpeg" class="imageContainer">
+        </div>
+        <div class="productosDeLaTienda">
+            <p>Luces para bicicleta</p>
+            <img src="../statics/img/luces.jpg" width="60px" height="40px" class="imageContainer">
+        </div>
+        <div class="productosDeLaTienda">
+            <p>guantes</p>
+            <img src="../statics/img/guantes.jpg" class="imageContainer">
+        </div>
+        
+    </section>
+    <section id="ticket">
+        <p class="subtitulos">Carrito de compras</p>
+    </section>
 </body>
 </html>
